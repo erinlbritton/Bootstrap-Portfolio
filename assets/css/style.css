@@ -21,8 +21,6 @@ a:hover {
     font-size: 30px;
     font-weight: bold;
     padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
     line-height: 1;
     z-index: 2;
 }
