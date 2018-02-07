@@ -156,6 +156,11 @@ a:hover {
     height: auto;
 }
 
+.img-xs {
+    width: 50%;
+    height: auto;
+}
+
 .pull-left {
     margin-right: 15px;
 }
