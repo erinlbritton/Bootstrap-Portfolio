@@ -152,12 +152,8 @@ a:hover {
 }
 
 .img {
-    width: 33%;
-    height: auto;
-}
-
-.img-xs {
-    width: 50%;
+    max-width: 200px;
+    width: 40%;
     height: auto;
 }
 
