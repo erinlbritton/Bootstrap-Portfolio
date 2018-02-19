@@ -8,8 +8,10 @@
 
   <title>Erin Britton's Portfolio</title>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -72,12 +74,14 @@
                 <hr class="main">
             <div class="row rowpadding">
                 <div class="col-md-12 colbottom">
-                    <img src="assets/images/Selfie.jpg" alt="Selfie" class="img-thumbnail pull-left img">
+                    <div id="selfie">
+                        <div class="img-thumbnail pull-left img Selfie"></div>
+                    </div>                    
                     <p class="maintext">
                         Hi! My name is Erin, and I am currently a student in the University of Richmond's Coding Bootcamp! I am interested in learning web application development to enhance my career in healthcare data analytics, reporting, data visualization, and healthcare information exchange.
                     </p>
                     <p class="maintext">
-                        When I am not writing code, I enjoy playing video games. You can find me in Nintendo Switch's Splatoon 2 (IGN: Erin) or Animal Crossing: Pocket Camp (ID: 9373 9057 125)! 
+                        When I am not writing code, I enjoy playing video games. You can find me in <a href="https://splatoon.nintendo.com/"><div id="Splatoon">Nintendo Switch's Splatoon 2 (IGN: Erin)</div></a><div class="maintext"> or </div><a href="https://ac-pocketcamp.com/en-US/site"><div id="AnimalCrossing">Animal Crossing: Pocket Camp (ID: 9373 9057 125)</div></a>! 
                     </p>
                 </div>
             </div>
@@ -115,5 +119,6 @@
   <!-- Bootstrap JavaScript CDN -->
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </body>
+<script src="assets/javascript/javascript.js"></script>
 
 </html>

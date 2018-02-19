@@ -12,6 +12,7 @@ a {
 
 a:hover {
     text-decoration: none;
+    color: #777777;
 }
 
 #name-xs {
@@ -147,8 +148,9 @@ a:hover {
 }
 
 .maintext {
-    line-height: 200%;
+    line-height: 250%;
     color: #777777;
+    display: inline;
 }
 
 .img {
@@ -178,26 +180,20 @@ a:hover {
     position: relative;
 }
 
+.fade-img {
+    opacity: 0.75;
+}
+
+.fade-img:hover {
+    opacity: 1;
+}
+
 .portfolio-img-label {
     position: absolute;
     width: 88.75%;
     max-width: 260px;
     bottom: 10%;
     background: #4aaaa5;
-    color: white;
-    text-align: center;
-    font-size: 22px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.portfolio-img-label:hover {
-    position: absolute;
-    width: 88.75%;
-    max-width: 260px;
-    bottom: 10%;
-    background: #377F7C;
     color: white;
     text-align: center;
     font-size: 22px;
@@ -260,4 +256,40 @@ a:hover {
     text-align: center;
     margin: 0;
     padding: 42px;
+}
+
+.AnimalCrossing, .Selfie, .Splatoon2{
+	background: url("../images/SelfieSprite.png") no-repeat;
+}
+
+.AnimalCrossing{
+	background-position: 0 -203px ;
+	width: 200px;
+	height: 200px;
+}
+
+.Selfie{
+	background-position: 0 0;
+	width: 200px;
+	height: 200px;
+}
+
+.Splatoon2{
+	background-position: 0 -406px ;
+	width: 200px;
+	height: 200px;
+}
+
+#Splatoon {
+    font-weight: bold;
+    display: inline;
+    line-height: 250%;
+    color: #777777;
+}
+
+#AnimalCrossing {
+    font-weight: bold;
+    display: inline;
+    line-height: 250%;
+    color: #777777;
 }
